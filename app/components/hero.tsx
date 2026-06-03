@@ -23,19 +23,19 @@ export function Hero() {
       className="mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-14 sm:px-8 sm:pt-20 lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:pb-28"
     >
       <div>
-        <p className="text-sm font-semibold tracking-[0.28em] text-sky-200 uppercase">
+        <p className="text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
           Leonardo Machado
         </p>
-        <p className="mt-4 text-base font-medium leading-7 text-slate-200">
+        <p className="mt-4 text-[17px] font-medium leading-7 text-slate-100">
           Desenvolvedor Web • Especialista em Google Ads • Designer de Sistemas
         </p>
-        <p className="mt-4 inline-flex rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm font-medium text-slate-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+        <p className="mt-4 inline-flex rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-[15px] font-medium text-slate-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
           Design que Vende
         </p>
-        <h1 className="mt-4 max-w-5xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
+        <h1 className="mt-4 max-w-5xl text-[clamp(3.25rem,7.6vw,5rem)] font-semibold tracking-tight text-white">
           Soluções digitais com design premium e função comercial.
         </h1>
-        <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+        <p className="mt-7 max-w-2xl text-[19px] leading-8 text-slate-200 sm:text-[21px]">
           Eu ajudo empresas a sair do improviso digital com sites, landing pages
           e campanhas de Google Ads pensados para gerar conversas, oportunidades
           e decisões mais claras.
@@ -58,7 +58,7 @@ export function Hero() {
           </a>
         </div>
 
-        <p className="mt-5 max-w-xl text-sm leading-6 text-slate-400">
+        <p className="mt-5 max-w-xl text-[15px] leading-6 text-slate-300">
           Comece com uma conversa sem pressão para entender o cenário, encontrar
           gargalos e decidir o melhor próximo passo.
         </p>
@@ -67,7 +67,7 @@ export function Hero() {
           {heroStats.map((item) => (
             <span
               key={item}
-              className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-slate-300"
+              className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-[15px] text-slate-200"
             >
               {item}
             </span>
@@ -96,13 +96,13 @@ export function Hero() {
                 />
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-8 text-center">
-                  <span className="flex size-28 items-center justify-center rounded-full border border-sky-100/20 bg-white/[0.06] text-3xl font-semibold tracking-[0.22em] text-slate-100 shadow-[0_0_70px_rgba(56,189,248,0.22)]">
+                  <span className="flex size-28 items-center justify-center rounded-full border border-sky-100/20 bg-white/[0.06] text-[clamp(2rem,4vw,2.25rem)] font-semibold tracking-[0.22em] text-slate-100 shadow-[0_0_70px_rgba(56,189,248,0.22)]">
                     LM
                   </span>
-                  <p className="mt-7 text-sm font-semibold tracking-[0.28em] text-sky-100 uppercase">
+                  <p className="mt-7 text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
                     Leonardo Machado
                   </p>
-                  <p className="mt-3 max-w-xs text-sm leading-6 text-slate-300">
+                  <p className="mt-3 max-w-xs text-[15px] leading-6 text-slate-200">
                     Desenvolvedor Web, Designer de Sistemas e Especialista em
                     Google Ads.
                   </p>
@@ -112,7 +112,7 @@ export function Hero() {
                 <p className="text-xs font-semibold tracking-[0.24em] text-sky-100 uppercase">
                   Marca pessoal
                 </p>
-                <p className="mt-2 text-2xl font-semibold text-white">
+                <p className="mt-2 text-[clamp(1.55rem,3vw,1.75rem)] font-semibold text-white">
                   Estratégia, design e tráfego no mesmo olhar.
                 </p>
               </div>

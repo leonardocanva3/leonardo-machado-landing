@@ -31,15 +31,15 @@ export function ProcessSection() {
       <section id="sobre" className="border-y border-white/10 bg-white/[0.025] px-5 py-24 sm:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.09] via-white/[0.035] to-sky-300/[0.08] p-7">
-            <p className="text-sm font-semibold tracking-[0.28em] text-sky-200 uppercase">
+            <p className="text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
               Prazer, eu sou o Léo
             </p>
-            <h2 className="mt-5 text-3xl font-semibold tracking-tight text-white sm:text-5xl">
+            <h2 className="mt-5 text-[clamp(2rem,4.6vw,3.2rem)] font-semibold tracking-tight text-white">
               Um parceiro técnico e estratégico para transformar presença em oportunidade.
             </h2>
           </div>
 
-          <div className="space-y-6 text-base leading-8 text-slate-300">
+          <div className="space-y-6 text-[17px] leading-8 text-slate-200">
             <p>
               Leonardo Machado atua como Desenvolvedor Web, Designer de Sistemas
               Web e Especialista em Google Ads, unindo visão estética,
@@ -83,10 +83,10 @@ export function ProcessSection() {
                 <span className="flex size-11 items-center justify-center rounded-full bg-slate-100 text-sm font-bold text-slate-950">
                   {index + 1}
                 </span>
-                <h3 className="mt-7 text-xl font-semibold text-white">
+                <h3 className="mt-7 text-[21px] font-semibold text-white">
                   {step.title}
                 </h3>
-                <p className="mt-4 text-sm leading-7 text-slate-300">
+                <p className="mt-4 text-[15px] leading-7 text-slate-200">
                   {step.description}
                 </p>
               </article>

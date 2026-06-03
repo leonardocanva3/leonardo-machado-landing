@@ -19,13 +19,13 @@ export function SectionHeading({
           : "max-w-3xl text-left"
       }
     >
-      <p className="text-sm font-semibold tracking-[0.28em] text-sky-200 uppercase">
+      <p className="text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
         {eyebrow}
       </p>
-      <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+      <h2 className="mt-4 text-[clamp(2rem,4.6vw,3.2rem)] font-semibold tracking-tight text-white">
         {title}
       </h2>
-      <p className="mt-5 text-base leading-8 text-slate-300 sm:text-lg">
+      <p className="mt-5 text-[17px] leading-8 text-slate-200 sm:text-[19px]">
         {description}
       </p>
     </div>

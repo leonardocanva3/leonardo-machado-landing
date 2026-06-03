@@ -40,7 +40,7 @@ export function ServicesSection() {
             title="Soluções digitais com design premium e função comercial."
             description="Sites e landing pages deixam de ser peças estáticas quando nascem com estratégia, clareza técnica e conexão com aquisição de demanda."
           />
-          <div className="rounded-xl border border-sky-200/20 bg-sky-200/[0.06] p-6 text-sm leading-7 text-slate-200">
+          <div className="rounded-xl border border-sky-200/20 bg-sky-200/[0.06] p-6 text-[15px] leading-7 text-slate-100">
             Atendimento consultivo para decidir o que construir, como comunicar,
             quais prioridades fazem sentido e como transformar tráfego em
             oportunidade.
@@ -53,13 +53,13 @@ export function ServicesSection() {
               key={service.title}
               className="group min-h-64 rounded-xl border border-white/10 bg-white/[0.035] p-6 transition hover:-translate-y-1 hover:border-sky-200/30 hover:bg-white/[0.055]"
             >
-              <span className="text-sm font-semibold text-sky-200">
+              <span className="text-[15px] font-semibold text-sky-200">
                 0{index + 1}
               </span>
-              <h3 className="mt-6 text-xl font-semibold text-white">
+              <h3 className="mt-6 text-[21px] font-semibold text-white">
                 {service.title}
               </h3>
-              <p className="mt-4 text-sm leading-7 text-slate-300">
+              <p className="mt-4 text-[15px] leading-7 text-slate-200">
                 {service.description}
               </p>
             </article>
@@ -67,7 +67,7 @@ export function ServicesSection() {
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-5 rounded-2xl border border-sky-200/20 bg-sky-200/[0.06] p-6 sm:flex-row sm:items-center">
-          <p className="max-w-2xl text-sm leading-7 text-slate-200">
+          <p className="max-w-2xl text-[15px] leading-7 text-slate-100">
             Não sabe se precisa de uma landing page, site, campanha ou sistema?
             A conversa inicial ajuda a separar prioridade de distração.
           </p>

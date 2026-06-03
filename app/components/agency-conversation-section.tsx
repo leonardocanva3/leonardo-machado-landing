@@ -28,14 +28,14 @@ export function AgencyConversationSection() {
                 <span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-sky-100/25 bg-sky-100/10 text-sm font-semibold text-sky-100">
                   {index + 1}
                 </span>
-                <p className="text-base font-medium leading-7 text-slate-100">
+                <p className="text-[17px] font-medium leading-7 text-slate-100">
                   {step}
                 </p>
               </div>
             ))}
           </div>
 
-          <p className="mt-6 rounded-xl border border-sky-100/20 bg-sky-100/[0.06] p-5 text-sm leading-7 text-slate-200">
+          <p className="mt-6 rounded-xl border border-sky-100/20 bg-sky-100/[0.06] p-5 text-[15px] leading-7 text-slate-100">
             A ideia é decidir sem pressão, com organização e clareza técnica.
             Você entende o que faz sentido, o que pode esperar e qual caminho
             tem mais potencial para gerar oportunidades reais.

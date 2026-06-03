@@ -35,8 +35,8 @@ export function IntroSection() {
               key={pillar.title}
               className="rounded-xl border border-white/10 bg-gradient-to-b from-white/[0.07] to-white/[0.025] p-6"
             >
-              <h3 className="text-xl font-semibold text-white">{pillar.title}</h3>
-              <p className="mt-4 text-sm leading-7 text-slate-300">
+              <h3 className="text-[21px] font-semibold text-white">{pillar.title}</h3>
+              <p className="mt-4 text-[15px] leading-7 text-slate-200">
                 {pillar.description}
               </p>
             </article>
