@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { whatsappHref } from "@/app/components/brand";
 import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
@@ -31,9 +32,12 @@ export function FinalCta() {
         <div className="relative">
           <div className="absolute -inset-6 rounded-[32px] bg-sky-300/20 blur-3xl" />
           <div className="relative h-[420px] overflow-hidden rounded-[24px] shadow-[0_24px_70px_rgba(2,6,23,0.42)] lg:h-[520px] lg:min-h-[420px]">
-            <img
+            <Image
               src="/images/leo-cafe-virtual.png"
               alt="Léo em uma conversa de café virtual"
+              width={1086}
+              height={1448}
+              sizes="(min-width: 1024px) 40vw, 100vw"
               className="block h-full w-full rounded-[24px] object-cover"
             />
           </div>

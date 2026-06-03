@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { navigationItems, whatsappHref } from "@/app/components/brand";
 import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
@@ -12,9 +13,13 @@ export function Header() {
           href="#inicio"
           className="flex w-[240px] shrink-0 items-center sm:w-[260px] lg:w-[400px]"
         >
-          <img
+          <Image
             src="/images/logo-leonardo222-machado.png"
             alt="Leonardo Machado - Design que Vende"
+            width={1366}
+            height={336}
+            priority
+            sizes="(min-width: 1024px) 400px, (min-width: 640px) 260px, 240px"
             className="h-auto w-full object-contain"
           />
         </a>
