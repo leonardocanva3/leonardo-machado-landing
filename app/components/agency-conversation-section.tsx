@@ -1,4 +1,6 @@
+import { whatsappHref } from "@/app/components/brand";
 import { SectionHeading } from "@/app/components/section-heading";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const steps = [
   "Primeiro entendo seu negócio.",
@@ -38,6 +40,16 @@ export function AgencyConversationSection() {
             Você entende o que faz sentido, o que pode esperar e qual caminho
             tem mais potencial para gerar oportunidades reais.
           </p>
+
+          <WhatsAppLink
+            href={whatsappHref}
+            trackingLocation="strategy_whatsapp"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.18)] transition hover:scale-[1.01]"
+          >
+            Converse com o Léo
+          </WhatsAppLink>
         </div>
       </div>
     </section>

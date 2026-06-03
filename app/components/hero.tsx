@@ -5,10 +5,10 @@ import { whatsappHref } from "@/app/components/brand";
 import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const heroStats = [
-  "Estratégia antes da execução",
+  "Diagnóstico antes da execução",
   "Tráfego pago com clareza",
-  "Sites como ferramentas de venda",
-  "Atendimento artesanal",
+  "Páginas preparadas para vender",
+  "Atendimento direto com o Léo",
 ];
 
 export function Hero() {
@@ -36,9 +36,9 @@ export function Hero() {
           Soluções digitais com design premium e função comercial.
         </h1>
         <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-          Eu ajudo empresas a transformar presença digital em oportunidades
-          reais de negócio, unindo estratégia, tecnologia, estética premium e
-          tráfego pago bem estruturado.
+          Eu ajudo empresas a sair do improviso digital com sites, landing pages
+          e campanhas de Google Ads pensados para gerar conversas, oportunidades
+          e decisões mais claras.
         </p>
         <div className="mt-9 flex flex-col gap-4 sm:flex-row">
           <WhatsAppLink
@@ -57,6 +57,11 @@ export function Hero() {
             Vamos conversar sobre sua empresa
           </a>
         </div>
+
+        <p className="mt-5 max-w-xl text-sm leading-6 text-slate-400">
+          Comece com uma conversa sem pressão para entender o cenário, encontrar
+          gargalos e decidir o melhor próximo passo.
+        </p>
 
         <div className="mt-10 flex flex-wrap gap-3">
           {heroStats.map((item) => (

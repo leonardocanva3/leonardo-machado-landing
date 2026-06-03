@@ -1,4 +1,6 @@
+import { whatsappHref } from "@/app/components/brand";
 import { SectionHeading } from "@/app/components/section-heading";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const services = [
   {
@@ -14,7 +16,7 @@ const services = [
   {
     title: "Google Ads",
     description:
-      "Campanhas estruturadas com leitura estratégica de intenção de busca, páginas preparadas e melhoria contínua.",
+      "Campanhas estruturadas para atrair quem já está procurando, com página e mensagem alinhadas.",
   },
   {
     title: "SEO",
@@ -62,6 +64,22 @@ export function ServicesSection() {
               </p>
             </article>
           ))}
+        </div>
+
+        <div className="mt-10 flex flex-col items-start justify-between gap-5 rounded-2xl border border-sky-200/20 bg-sky-200/[0.06] p-6 sm:flex-row sm:items-center">
+          <p className="max-w-2xl text-sm leading-7 text-slate-200">
+            Não sabe se precisa de uma landing page, site, campanha ou sistema?
+            A conversa inicial ajuda a separar prioridade de distração.
+          </p>
+          <WhatsAppLink
+            href={whatsappHref}
+            trackingLocation="services_whatsapp"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex shrink-0 rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.18)] transition hover:scale-[1.01]"
+          >
+            Converse com o Léo
+          </WhatsAppLink>
         </div>
       </div>
     </section>

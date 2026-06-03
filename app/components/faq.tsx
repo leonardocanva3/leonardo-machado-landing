@@ -26,6 +26,11 @@ const questions = [
     answer:
       "Pode entrar quando fizer sentido. O diferencial é pensar campanha, intenção de busca e página de destino como partes da mesma estratégia.",
   },
+  {
+    question: "E se eu ainda não souber exatamente o que preciso?",
+    answer:
+      "Tudo bem. A conversa inicial serve justamente para organizar ideias, identificar prioridades e indicar o caminho mais coerente para o momento da empresa.",
+  },
 ];
 
 export function Faq() {

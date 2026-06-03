@@ -1,4 +1,6 @@
+import { whatsappHref } from "@/app/components/brand";
 import { SectionHeading } from "@/app/components/section-heading";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const adsPillars = [
   "Estrutura correta de campanhas",
@@ -24,6 +26,15 @@ export function GoogleAdsSection() {
               página conversam entre si. Por isso, a análise considera a jornada
               completa, não apenas cliques.
             </p>
+            <WhatsAppLink
+              href={whatsappHref}
+              trackingLocation="google_ads_whatsapp"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-5 inline-flex rounded-full border border-sky-200/30 px-5 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-200/10"
+            >
+              Converse com o Léo
+            </WhatsAppLink>
           </div>
         </div>
 

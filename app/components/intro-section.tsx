@@ -24,8 +24,8 @@ export function IntroSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Muito além de um site bonito"
-          title="Presença digital precisa ter estética, lógica e intenção comercial."
-          description="O trabalho do Léo une design premium, desenvolvimento web e visão de tráfego para criar experiências digitais que passam confiança, organizam a mensagem e ajudam o visitante a tomar o próximo passo."
+          title="Presença digital precisa orientar a decisão."
+          description="O trabalho do Léo une design premium, desenvolvimento web e visão de tráfego para criar experiências digitais que passam confiança, organizam a mensagem e deixam claro o próximo passo."
           align="center"
         />
 

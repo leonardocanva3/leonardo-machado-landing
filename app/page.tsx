@@ -1,4 +1,5 @@
 import { AgencyConversationSection } from "@/app/components/agency-conversation-section";
+import { ConversionProofStrip } from "@/app/components/conversion-proof-strip";
 import { FinalCta } from "@/app/components/final-cta";
 import { FloatingWhatsapp } from "@/app/components/floating-whatsapp";
 import { Faq } from "@/app/components/faq";
@@ -19,11 +20,12 @@ export default function Home() {
       <div className="relative z-10">
         <Header />
         <Hero />
-        <WhoIsLeoSection />
+        <ConversionProofStrip />
         <AgencyConversationSection />
-        <IntroSection />
         <GoogleAdsSection />
         <ServicesSection />
+        <IntroSection />
+        <WhoIsLeoSection />
         <ProcessSection />
         <Faq />
         <FinalCta />
