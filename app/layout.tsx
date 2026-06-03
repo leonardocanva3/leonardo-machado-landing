@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@/app/components/google-analytics";
+import { StructuredData } from "@/app/components/structured-data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://oleonardomachado.com.br"),
+  metadataBase: new URL("https://www.oleonardomachado.com.br"),
   title: "Leonardo Machado | Design que Vende",
   description:
     "Desenvolvimento web, Google Ads e soluções digitais com design premium e função comercial.",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     title: "Leonardo Machado | Design que Vende",
     description:
       "Soluções digitais com design premium, Google Ads e função comercial.",
-    url: "https://oleonardomachado.com.br",
+    url: "https://www.oleonardomachado.com.br",
     siteName: "Leonardo Machado",
     images: ["/images/leo-profile.png"],
     locale: "pt_BR",
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
     images: ["/images/leo-profile.png"],
   },
   alternates: {
-    canonical: "https://oleonardomachado.com.br",
+    canonical: "https://www.oleonardomachado.com.br",
   },
   robots: {
     index: true,
@@ -74,6 +75,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <StructuredData />
         <GoogleAnalytics />
         {children}
       </body>
