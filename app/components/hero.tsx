@@ -85,7 +85,7 @@ export function Hero() {
                   fill
                   priority
                   sizes="(min-width: 1024px) 42vw, 90vw"
-                  className="object-cover object-center"
+                  className="object-cover object-top"
                 />
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-8 text-center">

@@ -14,44 +14,44 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://oleonardomachado.com.br"),
-  title: {
-    default:
-      "Leonardo Machado | Desenvolvedor Web e Especialista em Google Ads",
-    template: "%s | Leonardo Machado",
-  },
+  title: "Leonardo Machado | Design que Vende",
   description:
-    "Leonardo Machado, desenvolvedor web, designer de sistemas e especialista em Google Ads. Landing pages, sites profissionais e design que vende com estratégia.",
+    "Desenvolvimento web, Google Ads e soluções digitais com design premium e função comercial.",
   keywords: [
     "Leonardo Machado",
-    "Léo",
     "Design que Vende",
-    "desenvolvedor web Leonardo Machado",
-    "designer de sistemas",
-    "especialista em Google Ads",
+    "desenvolvedor web",
+    "Google Ads",
     "landing pages",
     "sites profissionais",
-    "design que vende",
-    "Google Ads",
+    "designer de sistemas",
+    "tráfego pago",
     "SEO",
-    "sistemas web",
   ],
   authors: [{ name: "Leonardo Machado" }],
   creator: "Leonardo Machado",
   publisher: "Leonardo Machado",
+  icons: {
+    icon: [{ url: "/images/favicon-leonardo-machado.png", type: "image/png" }],
+    shortcut: "/images/favicon-leonardo-machado.png",
+    apple: "/images/favicon-leonardo-machado.png",
+  },
   openGraph: {
     title: "Leonardo Machado | Design que Vende",
     description:
-      "Desenvolvedor web, designer de sistemas e especialista em Google Ads para empresas que querem vender com mais clareza.",
+      "Soluções digitais com design premium, Google Ads e função comercial.",
     url: "https://oleonardomachado.com.br",
     siteName: "Leonardo Machado",
+    images: ["/images/leo-profile.png"],
     locale: "pt_BR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Leonardo Machado | Desenvolvedor Web e Google Ads",
+    title: "Leonardo Machado | Design que Vende",
     description:
-      "Landing pages, sites profissionais, sistemas web e Google Ads com estratégia antes da execução.",
+      "Soluções digitais com design premium, Google Ads e função comercial.",
+    images: ["/images/leo-profile.png"],
   },
   alternates: {
     canonical: "https://oleonardomachado.com.br",
