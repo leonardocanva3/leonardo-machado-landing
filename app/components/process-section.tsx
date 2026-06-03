@@ -1,5 +1,6 @@
 import { whatsappHref } from "@/app/components/brand";
 import { SectionHeading } from "@/app/components/section-heading";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const processSteps = [
   {
@@ -51,14 +52,15 @@ export function ProcessSection() {
               presença digital com autoridade, confiança, acabamento artesanal e
               foco em venda.
             </p>
-            <a
+            <WhatsAppLink
               href={whatsappHref}
+              trackingLocation="about_whatsapp"
               target="_blank"
               rel="noreferrer"
               className="inline-flex rounded-full border border-sky-200/30 px-6 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-200/10"
             >
               Converse com o Léo
-            </a>
+            </WhatsAppLink>
           </div>
         </div>
       </section>

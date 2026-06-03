@@ -1,4 +1,5 @@
 import { whatsappHref } from "@/app/components/brand";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 export function FinalCta() {
   return (
@@ -16,14 +17,15 @@ export function FinalCta() {
             possibilidades e enxergar o melhor caminho com clareza. Não é venda
             fria; é uma conversa consultiva para descobrir o que faz sentido.
           </p>
-          <a
+          <WhatsAppLink
             href={whatsappHref}
+            trackingLocation="final_cta_whatsapp"
             target="_blank"
             rel="noreferrer"
             className="mt-8 inline-flex rounded-full bg-white px-8 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.22)] transition hover:scale-[1.01]"
           >
             Converse com o Léo
-          </a>
+          </WhatsAppLink>
         </div>
 
         <div className="relative">

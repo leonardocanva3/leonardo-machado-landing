@@ -1,4 +1,5 @@
 import { navigationItems, whatsappHref } from "@/app/components/brand";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 export function Header() {
   return (
@@ -30,14 +31,15 @@ export function Header() {
           ))}
         </div>
 
-        <a
+        <WhatsAppLink
           href={whatsappHref}
+          trackingLocation="header_whatsapp"
           target="_blank"
           rel="noreferrer"
           className="hidden shrink-0 items-center rounded-full border border-sky-300/30 bg-sky-300/10 px-5 py-2.5 text-sm font-semibold text-sky-100 shadow-[0_0_28px_rgba(56,189,248,0.16)] transition hover:border-sky-200/60 hover:bg-sky-300/15 md:inline-flex lg:px-6 lg:py-3 lg:text-base"
         >
           Converse com o Léo
-        </a>
+        </WhatsAppLink>
       </nav>
     </header>
   );

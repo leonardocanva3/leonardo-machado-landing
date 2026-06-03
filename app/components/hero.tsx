@@ -2,6 +2,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import Image from "next/image";
 import { whatsappHref } from "@/app/components/brand";
+import { WhatsAppLink } from "@/app/components/whatsapp-link";
 
 const heroStats = [
   "Estratégia antes da execução",
@@ -40,14 +41,15 @@ export function Hero() {
           tráfego pago bem estruturado.
         </p>
         <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-          <a
+          <WhatsAppLink
             href={whatsappHref}
+            trackingLocation="hero_whatsapp"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-sky-200 via-slate-100 to-white px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_60px_rgba(56,189,248,0.26)] transition hover:scale-[1.01]"
           >
             Converse com o Léo
-          </a>
+          </WhatsAppLink>
           <a
             href="#estrategia"
             className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-sm font-semibold text-white transition hover:border-sky-200/50 hover:bg-white/[0.04]"
