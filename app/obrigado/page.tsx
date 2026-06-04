@@ -5,13 +5,13 @@ export default function ObrigadoPage() {
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#05070a] px-5 py-20 text-white sm:px-8">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(64,131,199,0.24),transparent_28%),radial-gradient(circle_at_85%_15%,rgba(226,232,240,0.12),transparent_24%)]" />
       <div className="relative z-10 mx-auto max-w-3xl rounded-2xl border border-white/10 bg-gradient-to-br from-sky-200/[0.16] via-white/[0.075] to-white/[0.03] p-8 text-center shadow-[0_24px_90px_rgba(15,23,42,0.65)] sm:p-12">
-        <p className="text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
+        <p className="text-sm font-semibold tracking-[0.28em] text-sky-100 uppercase">
           Leonardo Machado
         </p>
-        <h1 className="mt-5 text-[clamp(2.5rem,7vw,4.05rem)] font-semibold tracking-tight text-white">
+        <h1 className="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-6xl">
           Obrigado pelo contato.
         </h1>
-        <p className="mx-auto mt-5 max-w-xl text-[17px] leading-8 text-slate-200 sm:text-[19px]">
+        <p className="mx-auto mt-5 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
           Recebi sua mensagem e retornarei o mais breve possível.
         </p>
         <Link

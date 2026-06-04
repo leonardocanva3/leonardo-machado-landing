@@ -26,8 +26,8 @@ export function ConversionProofStrip() {
             key={item.title}
             className="rounded-xl border border-white/10 bg-black/20 p-5"
           >
-            <h2 className="text-[17px] font-semibold text-white">{item.title}</h2>
-            <p className="mt-3 text-[15px] leading-6 text-slate-200">
+            <h2 className="text-base font-semibold text-white">{item.title}</h2>
+            <p className="mt-3 text-sm leading-6 text-slate-300">
               {item.description}
             </p>
           </article>

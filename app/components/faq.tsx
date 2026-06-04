@@ -49,7 +49,7 @@ export function Faq() {
               key={item.question}
               className="group rounded-xl border border-white/10 bg-black/20 p-6"
             >
-              <summary className="cursor-pointer list-none text-[19px] font-semibold text-white">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-white">
                 <span className="flex items-center justify-between gap-6">
                   {item.question}
                   <span className="text-sky-200 transition group-open:rotate-45">
@@ -57,7 +57,7 @@ export function Faq() {
                   </span>
                 </span>
               </summary>
-              <p className="mt-4 text-[15px] leading-7 text-slate-200">
+              <p className="mt-4 text-sm leading-7 text-slate-300">
                 {item.answer}
               </p>
             </details>

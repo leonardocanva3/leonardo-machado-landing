@@ -7,13 +7,13 @@ export function FinalCta() {
     <section className="px-5 py-24 sm:px-8">
       <div className="mx-auto grid max-w-7xl items-center gap-10 overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-sky-200/[0.16] via-white/[0.075] to-white/[0.03] p-7 shadow-[0_24px_90px_rgba(15,23,42,0.65)] sm:p-10 lg:grid-cols-[1.2fr_1fr] lg:gap-12">
         <div className="text-center lg:text-left">
-          <p className="text-[15px] font-semibold tracking-[0.28em] text-sky-100 uppercase">
+          <p className="text-sm font-semibold tracking-[0.28em] text-sky-100 uppercase">
             Vamos tomar um café virtual?
           </p>
-          <h2 className="mt-5 text-[clamp(2rem,4.6vw,3.2rem)] font-semibold tracking-tight text-white">
+          <h2 className="mt-5 text-3xl font-semibold tracking-tight text-white sm:text-5xl">
             Clareza antes da execução. Estratégia antes da tecnologia.
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-[17px] leading-8 text-slate-200 lg:mx-0">
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-300 lg:mx-0">
             Chame o Léo para falar sobre o momento da sua empresa, entender as
             possibilidades e enxergar o melhor caminho com clareza. Não é venda
             fria; é uma conversa consultiva para descobrir o que faz sentido.
