@@ -33,11 +33,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Leonardo Machado" }],
   creator: "Leonardo Machado",
   publisher: "Leonardo Machado",
-  icons: {
-    icon: [{ url: "/images/favicon-leonardo-machado.png", type: "image/png" }],
-    shortcut: "/images/favicon-leonardo-machado.png",
-    apple: "/images/favicon-leonardo-machado.png",
-  },
   openGraph: {
     title: "Leonardo Machado | Design que Vende",
     description:
