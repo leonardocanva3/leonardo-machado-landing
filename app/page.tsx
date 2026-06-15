@@ -9,6 +9,7 @@ import { Hero } from "@/app/components/hero";
 import { IntroSection } from "@/app/components/intro-section";
 import { ProcessSection } from "@/app/components/process-section";
 import { ServicesSection } from "@/app/components/services-section";
+import { TechnologyCaseSection } from "@/app/components/technology-case-section";
 import { WhoIsLeoSection } from "@/app/components/who-is-leo-section";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <ConversionProofStrip />
         <AgencyConversationSection />
         <GoogleAdsSection />
+        <TechnologyCaseSection />
         <ServicesSection />
         <IntroSection />
         <WhoIsLeoSection />
