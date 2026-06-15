@@ -53,21 +53,21 @@ export function EforceProjectSection() {
             </p>
 
             <div className="mt-12">
-              <div className="relative mx-auto max-w-[44rem] lg:mx-0">
+              <div className="relative mx-auto max-w-[21rem] sm:max-w-[44rem] lg:mx-0">
                 <div className="absolute -inset-5 rounded-[2rem] bg-red-500/12 blur-3xl" />
-                <div className="relative rounded-[1.7rem] border border-white/15 bg-white/[0.07] p-3 shadow-[0_34px_110px_rgba(0,0,0,0.48)] backdrop-blur">
+                <div className="relative rounded-[1.35rem] border border-white/15 bg-white/[0.07] p-2 shadow-[0_34px_110px_rgba(0,0,0,0.48)] backdrop-blur sm:rounded-[1.7rem] sm:p-3">
                   <div className="overflow-hidden rounded-[1.25rem] border border-red-100/15 bg-[#08090d]">
-                    <div className="flex items-center gap-2 border-b border-white/10 bg-white/[0.045] px-4 py-3">
+                    <div className="flex items-center gap-2 border-b border-white/10 bg-white/[0.045] px-3 py-2.5 sm:px-4 sm:py-3">
                       <span className="size-2.5 rounded-full bg-red-400/80" />
                       <span className="size-2.5 rounded-full bg-slate-300/50" />
                       <span className="size-2.5 rounded-full bg-white/25" />
-                      <span className="ml-auto h-2 w-28 rounded-full bg-white/10" />
+                      <span className="ml-auto h-2 w-16 rounded-full bg-white/10 sm:w-28" />
                     </div>
 
-                    <div className="relative min-h-[22rem] overflow-hidden bg-[radial-gradient(circle_at_78%_18%,rgba(248,113,113,0.18),transparent_28%),linear-gradient(135deg,#07070a_0%,#160a0d_52%,#050507_100%)] p-4">
+                    <div className="relative min-h-[14rem] overflow-hidden bg-[radial-gradient(circle_at_78%_18%,rgba(248,113,113,0.18),transparent_28%),linear-gradient(135deg,#07070a_0%,#160a0d_52%,#050507_100%)] p-2.5 sm:min-h-[22rem] sm:p-4">
                       <div
                         aria-label="Hero do site da Eforce"
-                        className="relative min-h-[20rem] overflow-hidden rounded-[1rem] border border-red-100/15 bg-cover bg-center bg-[#08090d] shadow-[0_24px_70px_rgba(0,0,0,0.34)]"
+                        className="relative min-h-[12.5rem] overflow-hidden rounded-[1rem] border border-red-100/15 bg-cover bg-center bg-[#08090d] shadow-[0_24px_70px_rgba(0,0,0,0.34)] sm:min-h-[20rem]"
                         role="img"
                         style={{ backgroundImage: `url(${eforcePreviewImage})` }}
                       >
@@ -75,13 +75,13 @@ export function EforceProjectSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="mx-auto mt-3 h-2 w-36 rounded-full bg-white/18" />
+                  <div className="mx-auto mt-3 h-2 w-24 rounded-full bg-white/18 sm:w-36" />
                 </div>
 
-                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-red-100/20 bg-slate-950 p-2 shadow-[0_26px_80px_rgba(239,68,68,0.14)] sm:w-[11.5rem] lg:-mr-3">
+                <div className="relative z-10 -mt-20 ml-auto w-[8.5rem] rounded-[1.7rem] border border-red-100/20 bg-slate-950 p-1.5 shadow-[0_26px_80px_rgba(239,68,68,0.14)] sm:-mt-28 sm:w-[11.5rem] sm:rounded-[2rem] sm:p-2 lg:-mr-3">
                   <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-[#08090d]">
                     <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-white/20" />
-                    <div className="p-3">
+                    <div className="p-2 sm:p-3">
                       <div
                         aria-label="Versão mobile da hero da Eforce"
                         className="aspect-[9/19] rounded-[1.2rem] bg-cover bg-top"

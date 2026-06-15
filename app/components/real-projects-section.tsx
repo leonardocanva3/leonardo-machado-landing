@@ -55,21 +55,21 @@ export function RealProjectsSection() {
             </p>
 
             <div className="mt-12">
-              <div className="relative mx-auto max-w-[44rem] lg:mx-0">
+              <div className="relative mx-auto max-w-[21rem] sm:max-w-[44rem] lg:mx-0">
                 <div className="absolute -inset-5 rounded-[2rem] bg-sky-200/35 blur-3xl" />
-                <div className="relative rounded-[1.7rem] border border-white/80 bg-white/75 p-3 shadow-[0_30px_90px_rgba(15,23,42,0.16)] backdrop-blur">
+                <div className="relative rounded-[1.35rem] border border-white/80 bg-white/75 p-2 shadow-[0_30px_90px_rgba(15,23,42,0.16)] backdrop-blur sm:rounded-[1.7rem] sm:p-3">
                   <div className="overflow-hidden rounded-[1.25rem] border border-slate-200 bg-white">
-                    <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-4 py-3">
+                    <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-3 py-2.5 sm:px-4 sm:py-3">
                       <span className="size-2.5 rounded-full bg-sky-500/70" />
                       <span className="size-2.5 rounded-full bg-slate-300" />
                       <span className="size-2.5 rounded-full bg-slate-200" />
-                      <span className="ml-auto h-2 w-28 rounded-full bg-slate-200" />
+                      <span className="ml-auto h-2 w-16 rounded-full bg-slate-200 sm:w-28" />
                     </div>
 
-                    <div className="min-h-[22rem] bg-gradient-to-br from-white via-sky-50/65 to-slate-100 p-4">
+                    <div className="min-h-[14rem] bg-gradient-to-br from-white via-sky-50/65 to-slate-100 p-2.5 sm:min-h-[22rem] sm:p-4">
                       <div
                         aria-label="Hero do site da Psicóloga Eliane Gonçalves"
-                        className="relative min-h-[20rem] overflow-hidden rounded-[1rem] border border-white bg-cover bg-top bg-slate-100 shadow-[0_22px_60px_rgba(15,23,42,0.12)]"
+                        className="relative min-h-[12.5rem] overflow-hidden rounded-[1rem] border border-white bg-cover bg-top bg-slate-100 shadow-[0_22px_60px_rgba(15,23,42,0.12)] sm:min-h-[20rem]"
                         role="img"
                         style={{ backgroundImage: `url(${heroPreviewImage})` }}
                       >
@@ -77,13 +77,13 @@ export function RealProjectsSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="mx-auto mt-3 h-2 w-36 rounded-full bg-slate-300" />
+                  <div className="mx-auto mt-3 h-2 w-24 rounded-full bg-slate-300 sm:w-36" />
                 </div>
 
-                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-white bg-slate-950 p-2 shadow-[0_24px_70px_rgba(15,23,42,0.18)] sm:w-[11.5rem] lg:-mr-3">
+                <div className="relative z-10 -mt-20 ml-auto w-[8.5rem] rounded-[1.7rem] border border-white bg-slate-950 p-1.5 shadow-[0_24px_70px_rgba(15,23,42,0.18)] sm:-mt-28 sm:w-[11.5rem] sm:rounded-[2rem] sm:p-2 lg:-mr-3">
                   <div className="overflow-hidden rounded-[1.55rem] bg-white">
                     <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
-                    <div className="p-3">
+                    <div className="p-2 sm:p-3">
                       <div
                         aria-label="Versão mobile da hero da Psicóloga Eliane Gonçalves"
                         className="aspect-[9/19] overflow-hidden rounded-[1.2rem] bg-cover bg-top bg-sky-50"

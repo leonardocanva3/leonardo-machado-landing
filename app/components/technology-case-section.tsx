@@ -104,21 +104,21 @@ export function TechnologyCaseSection() {
         </div>
 
         <div className="relative min-w-0 pt-2 lg:pt-10">
-          <div className="relative mx-auto max-w-[34rem]">
+          <div className="relative mx-auto max-w-[21rem] sm:max-w-[34rem]">
             <div className="absolute -inset-6 rounded-[2rem] bg-sky-300/10 blur-3xl" />
-            <div className="relative rounded-[1.6rem] border border-white/12 bg-slate-950/80 p-3 shadow-[0_32px_110px_rgba(2,8,23,0.72)] backdrop-blur">
+            <div className="relative rounded-[1.35rem] border border-white/12 bg-slate-950/80 p-2 shadow-[0_32px_110px_rgba(2,8,23,0.72)] backdrop-blur sm:rounded-[1.6rem] sm:p-3">
               <div className="overflow-hidden rounded-[1.15rem] border border-sky-100/15 bg-[#06101c]">
-                <div className="flex items-center gap-2 border-b border-white/10 bg-white/[0.045] px-4 py-3">
+                <div className="flex items-center gap-2 border-b border-white/10 bg-white/[0.045] px-3 py-2.5 sm:px-4 sm:py-3">
                   <span className="size-2.5 rounded-full bg-sky-200/80" />
                   <span className="size-2.5 rounded-full bg-slate-300/50" />
                   <span className="size-2.5 rounded-full bg-white/30" />
-                  <span className="ml-auto h-2 w-24 rounded-full bg-white/10" />
+                  <span className="ml-auto h-2 w-16 rounded-full bg-white/10 sm:w-24" />
                 </div>
 
-                <div className="bg-[#f8f7f4] p-4">
+                <div className="bg-[#f8f7f4] p-2.5 sm:p-4">
                   <div
                     aria-label="Área do Paciente no desktop"
-                    className="min-h-[18rem] rounded-xl border border-white/70 bg-contain bg-center bg-no-repeat bg-slate-100 shadow-[0_22px_70px_rgba(2,8,23,0.28)]"
+                    className="min-h-[12rem] rounded-xl border border-white/70 bg-contain bg-center bg-no-repeat bg-slate-100 shadow-[0_22px_70px_rgba(2,8,23,0.28)] sm:min-h-[18rem]"
                     role="img"
                     style={{
                       backgroundImage: `url(${patientAreaDesktopImage})`,
@@ -126,13 +126,13 @@ export function TechnologyCaseSection() {
                   />
                 </div>
               </div>
-              <div className="mx-auto mt-3 h-2 w-32 rounded-full bg-white/20" />
+              <div className="mx-auto mt-3 h-2 w-24 rounded-full bg-white/20 sm:w-32" />
             </div>
 
-            <div className="relative z-10 -mt-32 ml-auto w-[10.5rem] rounded-[2rem] border border-sky-100/25 bg-slate-950 p-2 shadow-[0_28px_90px_rgba(14,165,233,0.16)] sm:w-[11.5rem] lg:-mr-4">
+            <div className="relative z-10 -mt-20 ml-auto w-[8.5rem] rounded-[1.7rem] border border-sky-100/25 bg-slate-950 p-1.5 shadow-[0_28px_90px_rgba(14,165,233,0.16)] sm:-mt-32 sm:w-[11.5rem] sm:rounded-[2rem] sm:p-2 lg:-mr-4">
               <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-white">
                 <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-white/20" />
-                <div className="p-3">
+                <div className="p-2 sm:p-3">
                   <div
                     aria-label="Área do Paciente no celular"
                     className="aspect-[9/19] rounded-[1.2rem] bg-cover bg-top bg-slate-100"
