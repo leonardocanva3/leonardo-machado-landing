@@ -10,7 +10,7 @@ const projectFeatures = [
 ];
 
 const heroPreviewImage =
-  "https://www.psicologaelianegoncalves.com.br/images/eliane/eliane-hero.png";
+  "/images/eliane-project-hero.png";
 
 export function RealProjectsSection() {
   return (
@@ -64,34 +64,14 @@ export function RealProjectsSection() {
                       <span className="ml-auto h-2 w-28 rounded-full bg-slate-200" />
                     </div>
 
-                    <div className="grid min-h-[22rem] gap-6 bg-gradient-to-br from-white via-sky-50/65 to-slate-100 p-6 sm:grid-cols-[0.95fr_1.05fr] sm:items-center">
-                      <div className="space-y-4">
-                        <span className="inline-flex rounded-full border border-sky-200 bg-white/80 px-4 py-2 text-xs font-semibold text-sky-700 shadow-sm">
-                          Bem-vindo(a)!
-                        </span>
-                        <div className="space-y-3">
-                          <div className="h-4 w-4/5 rounded-full bg-slate-800/85" />
-                          <div className="h-4 w-11/12 rounded-full bg-slate-800/85" />
-                          <div className="h-4 w-3/5 rounded-full bg-slate-800/85" />
-                        </div>
-                        <div className="space-y-2 pt-2">
-                          <div className="h-2.5 w-full rounded-full bg-slate-300" />
-                          <div className="h-2.5 w-10/12 rounded-full bg-slate-300" />
-                          <div className="h-2.5 w-8/12 rounded-full bg-slate-300" />
-                        </div>
-                        <div className="flex flex-wrap gap-3 pt-2">
-                          <span className="h-10 w-32 rounded-full bg-sky-600" />
-                          <span className="h-10 w-32 rounded-full border border-slate-300 bg-white" />
-                        </div>
-                      </div>
-
+                    <div className="min-h-[22rem] bg-gradient-to-br from-white via-sky-50/65 to-slate-100 p-4">
                       <div
                         aria-label="Hero do site da Psicóloga Eliane Gonçalves"
-                        className="relative mx-auto aspect-[4/5] w-full max-w-[15rem] overflow-hidden rounded-[1.2rem] border border-white bg-cover bg-top bg-slate-100 shadow-[0_22px_60px_rgba(15,23,42,0.16)]"
+                        className="relative min-h-[20rem] overflow-hidden rounded-[1rem] border border-white bg-cover bg-top bg-slate-100 shadow-[0_22px_60px_rgba(15,23,42,0.12)]"
                         role="img"
                         style={{ backgroundImage: `url(${heroPreviewImage})` }}
                       >
-                        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-slate-950/18 to-transparent" />
+                        <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-white/45 to-transparent" />
                       </div>
                     </div>
                   </div>

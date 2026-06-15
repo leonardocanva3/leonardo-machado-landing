@@ -9,6 +9,8 @@ const eforceFeatures = [
   "Parceria há mais de 5 anos",
 ];
 
+const eforcePreviewImage = "/images/eforce-project-hero.png";
+
 export function EforceProjectSection() {
   return (
     <section
@@ -61,43 +63,14 @@ export function EforceProjectSection() {
                       <span className="ml-auto h-2 w-28 rounded-full bg-white/10" />
                     </div>
 
-                    <div className="relative min-h-[22rem] overflow-hidden bg-[radial-gradient(circle_at_78%_18%,rgba(248,113,113,0.26),transparent_28%),linear-gradient(135deg,#07070a_0%,#160a0d_52%,#050507_100%)] p-6">
-                      <div className="absolute inset-y-0 right-0 w-2/5 bg-gradient-to-l from-red-500/12 to-transparent" />
-                      <div className="relative grid min-h-[19rem] gap-6 sm:grid-cols-[1.05fr_0.95fr] sm:items-center">
-                        <div className="space-y-5">
-                          <span className="inline-flex rounded-full border border-red-200/20 bg-red-100/10 px-4 py-2 text-xs font-semibold tracking-[0.18em] text-red-100 uppercase">
-                            Hero do site
-                          </span>
-                          <div>
-                            <p className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">
-                              Eforce
-                            </p>
-                            <p className="mt-4 max-w-sm text-sm leading-7 text-slate-300">
-                              Presença digital forte, profissional e preparada
-                              para transmitir autoridade desde o primeiro acesso.
-                            </p>
-                          </div>
-                          <div className="flex flex-wrap gap-3 pt-2">
-                            <span className="h-10 w-32 rounded-full bg-red-500" />
-                            <span className="h-10 w-32 rounded-full border border-white/15 bg-white/8" />
-                          </div>
-                        </div>
-
-                        <div className="relative mx-auto aspect-[4/5] w-full max-w-[15rem] rounded-[1.35rem] border border-red-100/20 bg-gradient-to-br from-red-500/18 via-white/[0.055] to-black/20 p-4 shadow-[0_24px_70px_rgba(0,0,0,0.34)]">
-                          <div className="h-full rounded-[1rem] border border-white/10 bg-black/20 p-4">
-                            <div className="h-3 w-20 rounded-full bg-red-200/50" />
-                            <div className="mt-8 space-y-3">
-                              <div className="h-4 w-full rounded-full bg-white/65" />
-                              <div className="h-4 w-10/12 rounded-full bg-white/45" />
-                              <div className="h-4 w-7/12 rounded-full bg-red-200/45" />
-                            </div>
-                            <div className="mt-10 grid grid-cols-2 gap-3">
-                              <div className="h-20 rounded-xl border border-white/10 bg-white/[0.06]" />
-                              <div className="h-20 rounded-xl border border-red-100/15 bg-red-100/[0.08]" />
-                            </div>
-                            <div className="mt-4 h-20 rounded-xl border border-white/10 bg-white/[0.045]" />
-                          </div>
-                        </div>
+                    <div className="relative min-h-[22rem] overflow-hidden bg-[radial-gradient(circle_at_78%_18%,rgba(248,113,113,0.18),transparent_28%),linear-gradient(135deg,#07070a_0%,#160a0d_52%,#050507_100%)] p-4">
+                      <div
+                        aria-label="Hero do site da Eforce"
+                        className="relative min-h-[20rem] overflow-hidden rounded-[1rem] border border-red-100/15 bg-cover bg-center bg-[#08090d] shadow-[0_24px_70px_rgba(0,0,0,0.34)]"
+                        role="img"
+                        style={{ backgroundImage: `url(${eforcePreviewImage})` }}
+                      >
+                        <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/55 to-transparent" />
                       </div>
                     </div>
                   </div>
@@ -108,19 +81,12 @@ export function EforceProjectSection() {
                   <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-[#08090d]">
                     <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-white/20" />
                     <div className="p-3">
-                      <div className="aspect-[9/13] rounded-[1.2rem] bg-[radial-gradient(circle_at_75%_18%,rgba(248,113,113,0.28),transparent_32%),linear-gradient(160deg,#111216,#210b0f_58%,#07070a_100%)] p-4">
-                        <span className="inline-flex rounded-full border border-red-100/20 bg-red-100/10 px-3 py-1 text-[0.56rem] font-semibold tracking-[0.14em] text-red-100 uppercase">
-                          Hero
-                        </span>
-                        <p className="mt-9 text-3xl font-semibold tracking-tight text-white">
-                          Eforce
-                        </p>
-                        <div className="mt-5 space-y-2">
-                          <div className="h-2 w-full rounded-full bg-white/45" />
-                          <div className="h-2 w-9/12 rounded-full bg-white/25" />
-                        </div>
-                        <div className="mt-8 h-8 rounded-full bg-red-500" />
-                      </div>
+                      <div
+                        aria-label="Versão mobile da hero da Eforce"
+                        className="aspect-[9/13] rounded-[1.2rem] bg-cover bg-center"
+                        role="img"
+                        style={{ backgroundImage: `url(${eforcePreviewImage})` }}
+                      />
                     </div>
                     <div className="mx-auto mb-3 size-7 rounded-full border border-white/10" />
                   </div>
