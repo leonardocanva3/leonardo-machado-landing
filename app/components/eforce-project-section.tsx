@@ -10,6 +10,7 @@ const eforceFeatures = [
 ];
 
 const eforcePreviewImage = "/images/eforce-project-hero.png";
+const eforceMobilePreviewImage = "/images/eforce-project-mobile.jpeg";
 
 export function EforceProjectSection() {
   return (
@@ -77,15 +78,15 @@ export function EforceProjectSection() {
                   <div className="mx-auto mt-3 h-2 w-36 rounded-full bg-white/18" />
                 </div>
 
-                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-red-100/20 bg-slate-950 p-2 shadow-[0_26px_80px_rgba(239,68,68,0.14)] sm:w-[12rem] lg:-mr-3">
+                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-red-100/20 bg-slate-950 p-2 shadow-[0_26px_80px_rgba(239,68,68,0.14)] sm:w-[11.5rem] lg:-mr-3">
                   <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-[#08090d]">
                     <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-white/20" />
                     <div className="p-3">
                       <div
                         aria-label="Versão mobile da hero da Eforce"
-                        className="aspect-[9/13] rounded-[1.2rem] bg-cover bg-center"
+                        className="aspect-[9/19] rounded-[1.2rem] bg-cover bg-top"
                         role="img"
-                        style={{ backgroundImage: `url(${eforcePreviewImage})` }}
+                        style={{ backgroundImage: `url(${eforceMobilePreviewImage})` }}
                       />
                     </div>
                     <div className="mx-auto mb-3 size-7 rounded-full border border-white/10" />

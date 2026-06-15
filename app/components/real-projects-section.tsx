@@ -11,6 +11,8 @@ const projectFeatures = [
 
 const heroPreviewImage =
   "/images/eliane-project-hero.png";
+const mobilePreviewImage =
+  "/images/eliane-project-mobile.jpeg";
 
 export function RealProjectsSection() {
   return (
@@ -78,15 +80,15 @@ export function RealProjectsSection() {
                   <div className="mx-auto mt-3 h-2 w-36 rounded-full bg-slate-300" />
                 </div>
 
-                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-white bg-slate-950 p-2 shadow-[0_24px_70px_rgba(15,23,42,0.18)] sm:w-[12rem] lg:-mr-3">
+                <div className="relative z-10 -mt-28 ml-auto w-[10.5rem] rounded-[2rem] border border-white bg-slate-950 p-2 shadow-[0_24px_70px_rgba(15,23,42,0.18)] sm:w-[11.5rem] lg:-mr-3">
                   <div className="overflow-hidden rounded-[1.55rem] bg-white">
                     <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
                     <div className="p-3">
                       <div
                         aria-label="Versão mobile da hero da Psicóloga Eliane Gonçalves"
-                        className="aspect-[9/13] overflow-hidden rounded-[1.2rem] bg-cover bg-top bg-sky-50"
+                        className="aspect-[9/19] overflow-hidden rounded-[1.2rem] bg-cover bg-top bg-sky-50"
                         role="img"
-                        style={{ backgroundImage: `url(${heroPreviewImage})` }}
+                        style={{ backgroundImage: `url(${mobilePreviewImage})` }}
                       />
                       <div className="mt-3 space-y-2">
                         <div className="h-2 w-20 rounded-full bg-slate-300" />
