@@ -67,7 +67,7 @@ export function EforceProjectSection() {
                     <div className="relative min-h-[14rem] overflow-hidden bg-[radial-gradient(circle_at_78%_18%,rgba(248,113,113,0.18),transparent_28%),linear-gradient(135deg,#07070a_0%,#160a0d_52%,#050507_100%)] p-2.5 sm:min-h-[22rem] sm:p-4">
                       <div
                         aria-label="Hero do site da Eforce"
-                        className="relative min-h-[12.5rem] overflow-hidden rounded-[1rem] border border-red-100/15 bg-cover bg-center bg-[#08090d] shadow-[0_24px_70px_rgba(0,0,0,0.34)] sm:min-h-[20rem]"
+                        className="relative min-h-[12.5rem] overflow-hidden rounded-[1rem] border border-red-100/15 bg-contain bg-center bg-no-repeat bg-[#08090d] shadow-[0_24px_70px_rgba(0,0,0,0.34)] sm:min-h-[20rem]"
                         role="img"
                         style={{ backgroundImage: `url(${eforcePreviewImage})` }}
                       >
