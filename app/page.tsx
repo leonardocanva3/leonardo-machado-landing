@@ -8,6 +8,7 @@ import { Header } from "@/app/components/header";
 import { Hero } from "@/app/components/hero";
 import { IntroSection } from "@/app/components/intro-section";
 import { ProcessSection } from "@/app/components/process-section";
+import { RealProjectsSection } from "@/app/components/real-projects-section";
 import { ServicesSection } from "@/app/components/services-section";
 import { TechnologyCaseSection } from "@/app/components/technology-case-section";
 import { WhoIsLeoSection } from "@/app/components/who-is-leo-section";
@@ -25,6 +26,7 @@ export default function Home() {
         <AgencyConversationSection />
         <GoogleAdsSection />
         <TechnologyCaseSection />
+        <RealProjectsSection />
         <ServicesSection />
         <IntroSection />
         <WhoIsLeoSection />
