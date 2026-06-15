@@ -21,8 +21,8 @@ const caseCards = [
   },
 ];
 
-const patientItems = ["Orientações", "Materiais", "Agenda"];
-const dashboardStats = ["Pacientes", "Conteúdos", "Agenda"];
+const patientAreaDesktopImage = "/images/patient-area-desktop.png";
+const patientAreaMobileImage = "/images/patient-area-mobile.jpeg";
 
 export function TechnologyCaseSection() {
   return (
@@ -115,82 +115,34 @@ export function TechnologyCaseSection() {
                   <span className="ml-auto h-2 w-24 rounded-full bg-white/10" />
                 </div>
 
-                <div className="grid min-h-[18rem] gap-4 p-5 sm:grid-cols-[0.72fr_1.28fr]">
-                  <div className="space-y-3 rounded-xl border border-white/10 bg-black/20 p-4">
-                    <div className="h-3 w-20 rounded-full bg-sky-200/50" />
-                    <div className="space-y-2 pt-3">
-                      {dashboardStats.map((item) => (
-                        <div
-                          key={item}
-                          className="rounded-lg border border-white/10 bg-white/[0.045] p-3"
-                        >
-                          <div className="h-2 w-16 rounded-full bg-white/25" />
-                          <div className="mt-3 h-5 rounded-md bg-sky-200/15" />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="space-y-4">
-                    <div className="rounded-xl border border-sky-100/15 bg-sky-100/[0.06] p-4">
-                      <div className="flex items-center justify-between gap-4">
-                        <div>
-                          <div className="h-3 w-28 rounded-full bg-white/30" />
-                          <div className="mt-3 h-8 w-40 rounded-lg bg-white/15" />
-                        </div>
-                        <div className="size-14 rounded-2xl border border-sky-100/20 bg-sky-200/15" />
-                      </div>
-                    </div>
-
-                    <div className="grid gap-3 sm:grid-cols-3">
-                      <div className="h-20 rounded-xl border border-white/10 bg-white/[0.045]" />
-                      <div className="h-20 rounded-xl border border-white/10 bg-white/[0.045]" />
-                      <div className="h-20 rounded-xl border border-white/10 bg-white/[0.045]" />
-                    </div>
-
-                    <div className="rounded-xl border border-white/10 bg-black/20 p-4">
-                      <div className="mb-4 h-3 w-24 rounded-full bg-white/25" />
-                      <div className="flex h-24 items-end gap-2">
-                        {[42, 68, 52, 86, 74, 96].map((height) => (
-                          <span
-                            key={height}
-                            className="flex-1 rounded-t-md bg-gradient-to-t from-sky-300/20 to-sky-100/70"
-                            style={{ height: `${height}%` }}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  </div>
+                <div className="bg-[#f8f7f4] p-4">
+                  <div
+                    aria-label="Área do Paciente no desktop"
+                    className="min-h-[18rem] rounded-xl border border-white/70 bg-cover bg-top bg-slate-100 shadow-[0_22px_70px_rgba(2,8,23,0.28)]"
+                    role="img"
+                    style={{
+                      backgroundImage: `url(${patientAreaDesktopImage})`,
+                    }}
+                  />
                 </div>
               </div>
               <div className="mx-auto mt-3 h-2 w-32 rounded-full bg-white/20" />
             </div>
 
-            <div className="relative z-10 -mt-32 ml-auto w-[11.5rem] rounded-[2rem] border border-sky-100/25 bg-slate-950 p-2 shadow-[0_28px_90px_rgba(14,165,233,0.16)] sm:w-[13rem] lg:-mr-4">
-              <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-[#07111d]">
+            <div className="relative z-10 -mt-32 ml-auto w-[10.5rem] rounded-[2rem] border border-sky-100/25 bg-slate-950 p-2 shadow-[0_28px_90px_rgba(14,165,233,0.16)] sm:w-[11.5rem] lg:-mr-4">
+              <div className="overflow-hidden rounded-[1.55rem] border border-white/10 bg-white">
                 <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-white/20" />
-                <div className="p-4">
-                  <div className="rounded-2xl border border-sky-100/15 bg-sky-100/[0.07] p-4">
-                    <div className="size-11 rounded-2xl bg-sky-200/25" />
-                    <div className="mt-4 h-3 w-24 rounded-full bg-white/35" />
-                    <div className="mt-2 h-2 w-16 rounded-full bg-white/20" />
-                  </div>
-
-                  <div className="mt-4 space-y-3">
-                    {patientItems.map((item) => (
-                      <div
-                        key={item}
-                        className="rounded-xl border border-white/10 bg-white/[0.045] p-3"
-                      >
-                        <div className="h-2 w-20 rounded-full bg-white/25" />
-                        <p className="mt-2 text-[0.68rem] font-medium text-slate-300">
-                          {item}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
+                <div className="p-3">
+                  <div
+                    aria-label="Área do Paciente no celular"
+                    className="aspect-[9/19] rounded-[1.2rem] bg-cover bg-top bg-slate-100"
+                    role="img"
+                    style={{
+                      backgroundImage: `url(${patientAreaMobileImage})`,
+                    }}
+                  />
                 </div>
-                <div className="mx-auto mb-3 size-8 rounded-full border border-white/10" />
+                <div className="mx-auto mb-3 size-7 rounded-full border border-slate-200" />
               </div>
             </div>
           </div>
