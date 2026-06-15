@@ -1,5 +1,6 @@
 import { AgencyConversationSection } from "@/app/components/agency-conversation-section";
 import { ConversionProofStrip } from "@/app/components/conversion-proof-strip";
+import { EforceProjectSection } from "@/app/components/eforce-project-section";
 import { FinalCta } from "@/app/components/final-cta";
 import { FloatingWhatsapp } from "@/app/components/floating-whatsapp";
 import { Faq } from "@/app/components/faq";
@@ -27,6 +28,7 @@ export default function Home() {
         <GoogleAdsSection />
         <TechnologyCaseSection />
         <RealProjectsSection />
+        <EforceProjectSection />
         <ServicesSection />
         <IntroSection />
         <WhoIsLeoSection />
