@@ -90,11 +90,6 @@ export function RealProjectsSection() {
                         role="img"
                         style={{ backgroundImage: `url(${mobilePreviewImage})` }}
                       />
-                      <div className="mt-3 space-y-2">
-                        <div className="h-2 w-20 rounded-full bg-slate-300" />
-                        <div className="h-2 w-28 rounded-full bg-slate-200" />
-                        <div className="h-8 rounded-full bg-sky-600" />
-                      </div>
                     </div>
                     <div className="mx-auto mb-3 size-7 rounded-full border border-slate-200" />
                   </div>
