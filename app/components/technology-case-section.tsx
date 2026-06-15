@@ -118,7 +118,7 @@ export function TechnologyCaseSection() {
                 <div className="bg-[#f8f7f4] p-4">
                   <div
                     aria-label="Área do Paciente no desktop"
-                    className="min-h-[18rem] rounded-xl border border-white/70 bg-cover bg-top bg-slate-100 shadow-[0_22px_70px_rgba(2,8,23,0.28)]"
+                    className="min-h-[18rem] rounded-xl border border-white/70 bg-contain bg-center bg-no-repeat bg-slate-100 shadow-[0_22px_70px_rgba(2,8,23,0.28)]"
                     role="img"
                     style={{
                       backgroundImage: `url(${patientAreaDesktopImage})`,
