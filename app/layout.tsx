@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.oleonardomachado.com.br"),
-  title: "Leonardo Machado | Design que Vende",
+  title: "Leonardo Machado | Sites Premium que Geram Clientes",
   description:
-    "Desenvolvimento web, Google Ads e soluções digitais com design premium e função comercial.",
+    "Landing Pages, Google Ads e SEO para empresas que querem crescer com presença digital forte, performance e conversão.",
   keywords: [
     "Leonardo Machado",
-    "Design que Vende",
+    "Sites Premium que Geram Clientes",
     "desenvolvedor web",
     "Google Ads",
     "landing pages",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
   creator: "Leonardo Machado",
   publisher: "Leonardo Machado",
   openGraph: {
-    title: "Leonardo Machado | Design que Vende",
+    title: "Leonardo Machado | Sites Premium que Geram Clientes",
     description:
-      "Soluções digitais com design premium, Google Ads e função comercial.",
+      "Landing Pages, Google Ads e SEO para empresas que querem crescer com presença digital forte, performance e conversão.",
     url: "https://www.oleonardomachado.com.br",
     siteName: "Leonardo Machado",
     images: ["/images/leo-profile.png"],
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Leonardo Machado | Design que Vende",
+    title: "Leonardo Machado | Sites Premium que Geram Clientes",
     description:
-      "Soluções digitais com design premium, Google Ads e função comercial.",
+      "Landing Pages, Google Ads e SEO para empresas que querem crescer com presença digital forte, performance e conversão.",
     images: ["/images/leo-profile.png"],
   },
   alternates: {

@@ -15,7 +15,7 @@ export function Header() {
         >
           <Image
             src="/images/logo-leonardo222-machado.png"
-            alt="Leonardo Machado - Design que Vende"
+            alt="Leonardo Machado - Sites Premium que Geram Clientes"
             width={1366}
             height={336}
             priority

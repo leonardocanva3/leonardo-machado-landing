@@ -17,7 +17,7 @@ const structuredData = [
     alternateName: "Léo",
     brand: {
       "@type": "Brand",
-      name: "Leonardo Machado | Design que Vende",
+      name: "Leonardo Machado | Sites Premium que Geram Clientes",
     },
     url: siteUrl,
     telephone: "+55 61 99456-3586",
@@ -31,7 +31,7 @@ const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Leonardo Machado | Design que Vende",
+    name: "Leonardo Machado | Sites Premium que Geram Clientes",
     url: siteUrl,
     telephone: "+55 61 99456-3586",
     areaServed: {
@@ -44,7 +44,7 @@ const structuredData = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Leonardo Machado | Design que Vende",
+    name: "Leonardo Machado | Sites Premium que Geram Clientes",
     url: siteUrl,
     inLanguage: "pt-BR",
     publisher: {

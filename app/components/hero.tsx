@@ -30,15 +30,14 @@ export function Hero() {
           Desenvolvedor Web • Especialista em Google Ads • Designer de Sistemas
         </p>
         <p className="mt-4 inline-flex rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm font-medium text-slate-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
-          Design que Vende
+          Sites Premium que Geram Clientes
         </p>
         <h1 className="mt-4 max-w-5xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Soluções digitais com design premium e função comercial.
+          Sites Premium que Geram Clientes
         </h1>
         <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-          Eu ajudo empresas a sair do improviso digital com sites, landing pages
-          e campanhas de Google Ads pensados para gerar conversas, oportunidades
-          e decisões mais claras.
+          Landing Pages, Google Ads e SEO para empresas que querem crescer com
+          presença digital forte, performance e conversão.
         </p>
         <div className="mt-9 flex flex-col gap-4 sm:flex-row">
           <WhatsAppLink
@@ -48,13 +47,13 @@ export function Hero() {
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-sky-200 via-slate-100 to-white px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_60px_rgba(56,189,248,0.26)] transition hover:scale-[1.01]"
           >
-            Converse com o Léo
+            Conversar pelo WhatsApp
           </WhatsAppLink>
           <a
             href="#estrategia"
             className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-sm font-semibold text-white transition hover:border-sky-200/50 hover:bg-white/[0.04]"
           >
-            Vamos conversar sobre sua empresa
+            Conhecer soluções
           </a>
         </div>
 
