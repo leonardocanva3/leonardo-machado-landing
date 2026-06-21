@@ -159,6 +159,11 @@ export function TechnologyCaseSection() {
             </p>
             <a
               href="#"
+              data-analytics="cta"
+              data-category="CTA"
+              data-event="cta_click"
+              data-label="Conhecer o projeto"
+              data-location="case-tecnologia"
               className="mt-7 inline-flex rounded-full border border-sky-200/30 px-6 py-3 text-sm font-semibold text-sky-100 transition duration-300 hover:-translate-y-0.5 hover:bg-sky-200/10 hover:shadow-[0_18px_55px_rgba(14,165,233,0.14)]"
             >
               Conhecer o projeto

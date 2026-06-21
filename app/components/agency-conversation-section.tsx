@@ -43,7 +43,8 @@ export function AgencyConversationSection() {
 
           <WhatsAppLink
             href={whatsappHref}
-            trackingLocation="strategy_whatsapp"
+            trackingLocation="contact"
+            trackingLabel="Converse com o Leo"
             target="_blank"
             rel="noreferrer"
             className="mt-6 inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.18)] transition hover:scale-[1.01]"

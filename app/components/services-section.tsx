@@ -73,7 +73,8 @@ export function ServicesSection() {
           </p>
           <WhatsAppLink
             href={whatsappHref}
-            trackingLocation="services_whatsapp"
+            trackingLocation="contact"
+            trackingLabel="Converse com o Leo"
             target="_blank"
             rel="noreferrer"
             className="inline-flex shrink-0 rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.18)] transition hover:scale-[1.01]"

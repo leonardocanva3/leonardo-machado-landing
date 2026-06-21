@@ -20,7 +20,8 @@ export function FinalCta() {
           </p>
           <WhatsAppLink
             href={whatsappHref}
-            trackingLocation="final_cta_whatsapp"
+            trackingLocation="cta-final"
+            trackingLabel="Converse com o Leo"
             target="_blank"
             rel="noreferrer"
             className="mt-8 inline-flex rounded-full bg-white px-8 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_55px_rgba(226,232,240,0.22)] transition hover:scale-[1.01]"

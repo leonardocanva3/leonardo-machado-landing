@@ -11,6 +11,11 @@ export function Header() {
       >
         <a
           href="#inicio"
+          data-analytics="cta"
+          data-category="CTA"
+          data-event="cta_click"
+          data-label="Logo Leonardo Machado"
+          data-location="header"
           className="flex w-[240px] shrink-0 items-center sm:w-[260px] lg:w-[400px]"
         >
           <Image
@@ -29,6 +34,11 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
+              data-analytics="contact-link"
+              data-category="Contato"
+              data-event="contact_link_click"
+              data-label={item.label}
+              data-location="header"
               className="whitespace-nowrap text-base font-medium text-slate-200 transition hover:text-sky-200"
             >
               {item.label}
@@ -38,7 +48,8 @@ export function Header() {
 
         <WhatsAppLink
           href={whatsappHref}
-          trackingLocation="header_whatsapp"
+          trackingLocation="header"
+          trackingLabel="Converse com o Leo"
           target="_blank"
           rel="noreferrer"
           className="hidden shrink-0 items-center rounded-full border border-sky-300/30 bg-sky-300/10 px-5 py-2.5 text-sm font-semibold text-sky-100 shadow-[0_0_28px_rgba(56,189,248,0.16)] transition hover:border-sky-200/60 hover:bg-sky-300/15 md:inline-flex lg:px-6 lg:py-3 lg:text-base"

@@ -54,7 +54,8 @@ export function ProcessSection() {
             </p>
             <WhatsAppLink
               href={whatsappHref}
-              trackingLocation="about_whatsapp"
+              trackingLocation="about"
+              trackingLabel="Converse com o Leo"
               target="_blank"
               rel="noreferrer"
               className="inline-flex rounded-full border border-sky-200/30 px-6 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-200/10"

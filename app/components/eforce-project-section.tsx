@@ -128,6 +128,11 @@ export function EforceProjectSection() {
                 href="https://www.eliasforce.com.br/"
                 target="_blank"
                 rel="noreferrer"
+                data-analytics="external-link"
+                data-category="Link externo"
+                data-event="external_link_click"
+                data-label="Visitar projeto - Eforce"
+                data-location="projeto-eforce"
                 className="mt-7 inline-flex rounded-full border border-red-100/25 bg-white px-6 py-3 text-sm font-semibold text-slate-950 shadow-[0_18px_55px_rgba(255,255,255,0.12)] transition duration-300 hover:-translate-y-0.5 hover:scale-[1.01] hover:bg-red-50"
               >
                 Visitar projeto

@@ -130,6 +130,11 @@ export function RealProjectsSection() {
                 href="https://www.psicologaelianegoncalves.com.br/"
                 target="_blank"
                 rel="noreferrer"
+                data-analytics="external-link"
+                data-category="Link externo"
+                data-event="external_link_click"
+                data-label="Visitar projeto - Psicologa Eliane Goncalves"
+                data-location="projetos-reais"
                 className="mt-7 inline-flex rounded-full border border-sky-700/20 bg-slate-950 px-6 py-3 text-sm font-semibold text-white shadow-[0_18px_45px_rgba(15,23,42,0.16)] transition duration-300 hover:-translate-y-0.5 hover:scale-[1.01] hover:bg-sky-700"
               >
                 Visitar projeto

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { AnalyticsClickTracker } from "@/app/components/analytics-click-tracker";
 import { GoogleAnalytics } from "@/app/components/google-analytics";
+import { PageViewTracker } from "@/app/components/page-view-tracker";
 import { StructuredData } from "@/app/components/structured-data";
 import "./globals.css";
 
@@ -72,6 +74,8 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col">
         <StructuredData />
         <GoogleAnalytics />
+        <PageViewTracker />
+        <AnalyticsClickTracker />
         {children}
       </body>
     </html>

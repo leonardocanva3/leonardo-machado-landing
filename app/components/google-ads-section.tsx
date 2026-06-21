@@ -28,7 +28,8 @@ export function GoogleAdsSection() {
             </p>
             <WhatsAppLink
               href={whatsappHref}
-              trackingLocation="google_ads_whatsapp"
+              trackingLocation="contact"
+              trackingLabel="Converse com o Leo"
               target="_blank"
               rel="noreferrer"
               className="mt-5 inline-flex rounded-full border border-sky-200/30 px-5 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-200/10"

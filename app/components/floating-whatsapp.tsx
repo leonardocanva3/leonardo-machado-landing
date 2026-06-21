@@ -5,7 +5,8 @@ export function FloatingWhatsapp() {
   return (
     <WhatsAppLink
       href={whatsappHref}
-      trackingLocation="floating_whatsapp"
+      trackingLocation="floating"
+      trackingLabel="Converse com o Leo"
       target="_blank"
       rel="noreferrer"
       aria-label="Converse com o Léo pelo WhatsApp"

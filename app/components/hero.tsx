@@ -42,7 +42,8 @@ export function Hero() {
         <div className="mt-9 flex flex-col gap-4 sm:flex-row">
           <WhatsAppLink
             href={whatsappHref}
-            trackingLocation="hero_whatsapp"
+            trackingLocation="hero"
+            trackingLabel="Conversar pelo WhatsApp"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-sky-200 via-slate-100 to-white px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_18px_60px_rgba(56,189,248,0.26)] transition hover:scale-[1.01]"
@@ -51,6 +52,11 @@ export function Hero() {
           </WhatsAppLink>
           <a
             href="#estrategia"
+            data-analytics="cta"
+            data-category="CTA"
+            data-event="cta_click"
+            data-label="Conhecer solucoes"
+            data-location="hero"
             className="inline-flex items-center justify-center rounded-full border border-white/15 px-7 py-4 text-sm font-semibold text-white transition hover:border-sky-200/50 hover:bg-white/[0.04]"
           >
             Conhecer soluções
