@@ -23,6 +23,22 @@ type QuizEvent =
 
 type CharacterVariant = "doctor" | "robot";
 
+type MetaPixelParameters = {
+  value: number;
+  currency: "BRL";
+};
+
+declare global {
+  interface Window {
+    fbq?: (
+      command: "track",
+      eventName: "InitiateCheckout",
+      parameters: MetaPixelParameters
+    ) => void;
+    __dentistasMetaPixelInitiateCheckoutSent?: boolean;
+  }
+}
+
 const firstQuestionOptions = [
   "😵 Não sei o que postar",
   "⏰ Falta tempo",
@@ -106,6 +122,7 @@ export function DentistasLanding() {
   const [step, setStep] = useState(1);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
+  const checkoutEventSentRef = useRef(false);
   const stepLabel = useMemo(() => `Etapa ${step} de ${totalSteps}`, [step]);
 
   useEffect(() => {
@@ -138,6 +155,19 @@ export function DentistasLanding() {
 
   function handleCheckoutClick() {
     emitDentistasEvent("dentistas_checkout_clicked");
+
+    if (
+      !checkoutEventSentRef.current &&
+      !window.__dentistasMetaPixelInitiateCheckoutSent
+    ) {
+      checkoutEventSentRef.current = true;
+      window.__dentistasMetaPixelInitiateCheckoutSent = true;
+      window.fbq?.("track", "InitiateCheckout", {
+        value: 29.9,
+        currency: "BRL",
+      });
+    }
+
     window.location.href = CHECKOUT_URL;
   }
 
